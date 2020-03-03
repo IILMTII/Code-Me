@@ -60,7 +60,7 @@ $(document).ready(function () {
             youtubeBtn.on("click", function () {
                 $(".hide").css("visibility", "visible")
                 var searchQuery = challengeID + "JavaScript";
-                let googleKey = "AIzaSyCN8BP_zA7LbOr5ZegORQuuaaKh06r5Fkk";
+                let googleKey = "AIzaSyBWgKCdPXvDRX43H1u3BR_tagZp5TrOm4A";
                 $.ajax({
                     url: "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + searchQuery + "&key=" + googleKey,
                     method: "GET"
